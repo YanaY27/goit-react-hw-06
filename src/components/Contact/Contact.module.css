@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  gap: 10px;
+}
+
+.number {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 30px;
+  width: 100px;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: red;
+}
